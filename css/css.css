@@ -26,6 +26,16 @@ hr{
 	color: rgb(39, 39, 39);
 }
 
+
+nav li{
+	transition: 1s;
+}
+
+nav li:hover{
+	transform: scale(1.15);
+	color: orangered;
+}
+
 .txth2{
 	font-size: 9vh;
 }
@@ -136,6 +146,72 @@ hr{
 	background: #FFD45D;
 	padding-top: 25px;
 }
+
+.trans1{
+	position: relative; 
+	left: -1500px;
+}
+
+.trans1{
+	animation-name: transicion1;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+.trans2{
+	position: relative; 
+	left: 1500px;
+}
+
+.trans2{
+	animation-name: transicion2;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+
+
+.trans3{
+	animation-name: transicion3;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+
+
+/*traslacion de los traslacion*/
+@keyframes transicion1{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(1500px);
+    }
+
+}
+
+@keyframes transicion2{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-1500px);
+    }
+
+}
+
+/*traslacion de los trasnparencias*/
+@keyframes transicion3{
+    0%{
+        color: transparent;
+        background-color: transparent;
+    }
+    100%{
+
+    }
+
+}
+
 
 
 /* Extra small devices (portrait phones, less than 576px) */
