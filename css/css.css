@@ -49,6 +49,17 @@ hr{
 	color: rgb(93, 93, 93);
 }
 
+.boton6{
+	text-decoration: none;
+}
+
+.imgenviado{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .noticia{
 	padding-top: 3vh;
