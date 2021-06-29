@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Roboto:wght@300&display=swap');
+
+*
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+	font-family: 'Blinker', sans-serif;
+	}
+
+
+body{
+background-image: url(../img/404/ruidoblanco4.gif);
+margin: auto;
+}
+
+.contenedor{
+    margin-top: 10%;
+	display: inline-block;
+    white-space: nowrap;
+	width: 100%;
+}
+
+.bloque{
+    width: 180px;
+	display: inline-block;
+	white-space: normal;
+	overflow: hidden;
+    box-sizing: border-box;
+}
+
+.izquierdo{
+    width: 44%;
+}
+
+.derecho{
+    width: 55%;
+}
+
+.txt{
+    left: 900px;
+    margin-top: 95px;
+    font-size: 20px;
+    position: relative; 
+    line-height: 35px;    
+}
+
+.txt .txt1{
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+.txt .txt2{
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.txt .txt3{
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.txt .txt4{
+    animation-name: text;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.img{
+    margin: 0 auto;
+    position: absolute; 
+    top: 10%;
+    margin-left: 55px;
+}
+
+.boton{
+    padding: 10px;
+    font-size: 30px;
+    background-color: #FEB602;
+    color: #ffffff;
+    border-radius: 6px;
+    position: absolute; 
+    top: 450px;
+    animation-name: boton;
+    animation-duration: 3s;
+    text-decoration: none;
+    transition: 2.5s;
+}
+
+.boton:hover{
+    color: #FEB602;
+    background-color: #ffffff;
+    transform: scale(1.25);
+	
+}
+
+
+/*traslacion de los txt*/
+@keyframes text{
+    0%{
+        transform: translateX(0px);
+        color: transparent;
+    }
+    100%{
+        transform: translateX(-900px);
+    }
+
+}
+
+/*traslacion de los boton*/
+
+@keyframes boton{
+    0%{
+        color: transparent;
+        background-color: transparent;
+    }
+    100%{
+
+    }
+
+}
+
+
+
