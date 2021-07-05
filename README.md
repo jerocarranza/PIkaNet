@@ -42,6 +42,8 @@
 -Imagenes secundarias: 530x350<br>
 
 <h3>Visualizacion</h3>
+<br>
+<img src="img/Capturas de patalla/index.png" alt="">
 
 
 
