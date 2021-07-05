@@ -1,4 +1,4 @@
-<h1># PIkaNet<h1>
+<h1># PIkaNet</h1>
 
 El siguiente archivo presenta de modo de registro un listado de datos necesarios para el correccion funcionamiento del sitio web. Debe utilizarse de estricta para realizar modificacion en el sitio, ya sea reaiznado la redaccion de notas, subiendo imagenes a la geleria o subiendo alguna nueva novedad al sitio. 
 
