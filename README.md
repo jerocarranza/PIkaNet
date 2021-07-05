@@ -1,12 +1,23 @@
-<h1># PIkaNet</h1>
+<body style="font-family: sans-serif;">
 
-El siguiente archivo presenta de modo de registro un listado de datos necesarios para el correccion funcionamiento del sitio web. Debe utilizarse de estricta para realizar modificacion en el sitio, ya sea reaiznado la redaccion de notas, subiendo imagenes a la geleria o subiendo alguna nueva novedad al sitio. 
+<h1 style="text-align: center; font-family: sans-serif;"># PIkaNet</h1>
 
-Teconologia utilizadas: 
--El sitio <h2>se</h2> encuentra Hosteado <b>den<b/>tro de la plataforma Netlify
--La version de Bootstrap utilizando hasta momento corresponde la version 5.0 https://getbootstrap.com/docs/5.0/getting-started/introduction/
+<div class="container">
+<p>El sitio web propone una fanpage para el personaje correspondiente al desarrollo del cuatrimestre, en este caso es <b>Pikachu, la mascota principal de la franquicia Pokémon</b>. Dentro del sitio además de encontrar <b>notas</b> relacionadas al Pokémon se puede visitar <b>una galería</b>, una <b>sección con datos</b> y más sitios relacionados a esta caricatura. </p>
+</div>
+
+<hr>
+
+<h2>Teconologia utilizadas: </h2>
+-El sitio se encuentra Hosteado <b>den</b>tro de la plataforma Netlify<br>
+-La version de Bootstrap utilizando hasta momento corresponde la version 5.0 https://getbootstrap.com/docs/5.0/getting-started/introduction/<br>
+
+<hr>
+
+<h2>Teconologia utilizadas: </h2>
 
 
+</body>
 
 
 
