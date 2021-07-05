@@ -45,8 +45,7 @@
 <h3>Visualizacion</h3>
 <br>
  
-![](img/Capturas de patalla/index.png)
-<img src="img/Capturas de patalla/index.png" alt="">
+<img src="img/index.png" alt="">
 
 
 
