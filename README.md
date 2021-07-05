@@ -8,7 +8,7 @@
 
 <hr>
 
-<h2><a href="https://pikanet.netlify.app/"></a>Link al sitio</a></h2>
+<h2><a href="https://pikanet.netlify.app/">Link al sitio</a></h2>
   
 <h2>Teconologia utilizadas: </h2>
 -El sitio se encuentra Hosteado <b>den</b>tro de la plataforma Netlify<br>
